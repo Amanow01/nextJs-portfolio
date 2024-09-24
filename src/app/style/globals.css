@@ -57,4 +57,7 @@ link {
     transform: translateY(1px);
   }
 }
+.speak-between {
+  justify-content: space-between;
+}
 /* responsive */

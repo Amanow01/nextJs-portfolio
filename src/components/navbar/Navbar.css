@@ -30,7 +30,7 @@ nav {
   transition: color 500ms ease;
   animation: text-move 1s infinite ease alternate;
   &:hover {
-    color: #e6e5e5;
+    color: #194c33;
   }
 }
 @keyframes text-move {
@@ -49,8 +49,8 @@ nav {
   font-size: 1rem;
   font-weight: 600;
   transition: color 500ms ease;
-  a &:hover {
-    color: #e6e5e5;
+  &:hover {
+    color: #194c33;
   }
 }
 .hamburg {

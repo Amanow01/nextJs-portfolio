@@ -5,15 +5,7 @@ const project = () => {
   return (
     <div>
       <h1 className="project-title">Project</h1>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill,minmax(20rem, 1fr))",
-
-          gap: "1rem",
-        }}
-        className="center"
-      >
+      <div className="cart-grid">
         {info.map((infoMap) => {
           return (
             <ProjectCart

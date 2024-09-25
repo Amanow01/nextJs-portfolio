@@ -4,12 +4,14 @@
   row-gap: 1.125rem;
 }
 
-.title {
+.project-title {
   font-size: 5rem;
   background: linear-gradient(to bottom, #194c33, #bbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  cursor: pointer;
+  padding-bottom: 2rem;
 }
 
 .img {

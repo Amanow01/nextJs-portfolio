@@ -1,4 +1,4 @@
-section {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ section {
     box-shadow: #e5e5e5 1px 1px 20px 1px;
   }
 }
-.text {
+.cart-text {
   text-align: center;
   cursor: pointer;
   background: linear-gradient(to bottom, #bb0b40, #194c33);

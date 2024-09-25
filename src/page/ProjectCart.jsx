@@ -7,9 +7,9 @@ import UniBtn from "@/components/uniBtn/UniBtn";
 const ProjectCart = ({ title, img, url, gitHub }) => {
   return (
     <>
-      <section>
+      <section className="section">
         <Image src={image} alt="no_image" width={200} />
-        <h1 className="text">{title}</h1>
+        <h1 className="cart-text">{title}</h1>
         <UniBtn url={url} text="GitHub" />
       </section>
     </>
